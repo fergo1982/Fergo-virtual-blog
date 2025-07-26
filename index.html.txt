@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fergo Virtual - Tu Portal Gamer Definitivo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://via.placeholder.com/32x32?text=🎮">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Fergo Virtual</h1>
+            <p>¡Donde tus clips cobran vida y la comunidad gamer se une!</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#clips">Mis Mejores Clips</a></li>
+                <li><a href="#articulos">Artículos y Guías</a></li>
+                <li><a href="#chat-amigos">Sala de Clan (Chat)</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="inicio" class="hero-section">
+            <div class="hero-content">
+                <h2>¡Bienvenido a Fergo Virtual!</h2>
+                <p>Explora un universo de jugadas épicas, análisis profundos y únete a nuestra comunidad apasionada.</p>
+                <a href="#clips" class="btn-primary">Ver Mis Últimos Clips</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/600x400?text=FERGO+VIRTUAL+Gaming" alt="Imagen destacada de gaming">
+            </div>
+        </section>
+
+        <section id="clips" class="content-section">
+            <h2>Mis Mejores Clips Recientes</h2>
+            <div class="video-grid">
+                <div class="video-item">
+                    <h3>🏆 Pentakill Legendario en League of Legends</h3>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID_1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <p>¡No creerás este Pentakill que me saqué en la última partida clasificatoria! Análisis de la jugada y mis impresiones.</p>
+                </div>
+
+                <div class="video-item">
+                    <h3>🚗 Golazo Increíble en Rocket League</h3>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID_2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <p>Este fue un gol de locura, casi desde mi portería. ¡La práctica da sus frutos!</p>
+                </div>
+
+                </div>
+            <div class="all-clips-link">
+                <a href="#" class="btn-secondary">Ver Todos Mis Clips</a>
+            </div>
+        </section>
+
+        <section id="articulos" class="content-section">
+            <h2>Artículos y Guías Gamer</h2>
+            <article class="blog-post">
+                <h3>Guía Completa: Domina la Jungla en LoL (Temporada Actual)</h3>
+                <p class="meta">Publicado por Fergo el <time datetime="2025-07-26">26 de Julio de 2025</time></p>
+                <p>La jungla es el alma de la partida. Aprende las rutas de farmeo óptimas, el control de objetivos y cómo gankear eficazmente para llevar a tu equipo a la victoria...</p>
+                <a href="#" class="read-more">Leer Artículo Completo</a>
+            </article>
+            <article class="blog-post">
+                <h3>Análisis: ¿Es Elden Ring el GOTY definitivo?</h3>
+                <p class="meta">Publicado por Fergo el <time datetime="2025-07-15">15 de Julio de 2025</time></p>
+                <p>Desde su lanzamiento, Elden Ring ha cautivado a millones. Exploramos por qué este souls-like de mundo abierto ha dejado una huella imborrable en la historia de los videojuegos...</p>
+                <a href="#" class="read-more">Leer Artículo Completo</a>
+            </article>
+            <article class="blog-post">
+                <h3>Top 5 Accesorios Gamer Indispensables para 2025</h3>
+                <p class="meta">Publicado por Fergo el <time datetime="2025-07-08">08 de Julio de 2025</time></p>
+                <p>Un buen setup marca la diferencia. Te presento mi selección personal de los accesorios que no pueden faltar en tu estación de batalla gaming este año...</p>
+                <a href="#" class="read-more">Leer Artículo Completo</a>
+            </article>
+            <div class="all-articles-link">
+                <a href="#" class="btn-secondary">Ver Todos los Artículos</a>
+            </div>
+        </section>
+
+        <section id="chat-amigos" class="content-section chat-section">
+            <h2>Sala de Clan: Nuestro Chat de Amigos</h2>
+            <p>¡Bienvenido, amigo! Este es el punto de reunión secreto para los miembros de nuestro clan. Aquí podremos coordinar partidas, compartir estrategias y charlar libremente.</p>
+            
+            <div class="chat-access-info">
+                <h3>Cómo Acceder al Chat:</h3>
+                <p>Para mantener la privacidad de nuestro clan, el chat está alojado en una plataforma externa segura. Necesitarás una contraseña para unirte.</p>
+                <ul>
+                    <li>**Paso 1:** Haz clic en el botón de abajo.</li>
+                    <li>**Paso 2:** Introduce la contraseña que te he proporcionado personalmente.</li>
+                </ul>
+                <p class="important-note">**Nota:** El chat requiere un servicio de servidor para funcionar de forma segura y en tiempo real. Como esto no se puede hacer directamente en el navegador, te recomiendo usar una plataforma como **Discord** o **Telegram** y compartir el enlace de invitación aquí, protegido con la contraseña que les des a tus amigos.</p>
+                
+                <a href="TU_ENLACE_INVITACION_DISCORD_O_TELEGRAM" target="_blank" class="btn-primary">Acceder a la Sala de Clan (Discord/Telegram)</a>
+            </div>
+        </section>
+
+        <section id="contacto" class="content-section">
+            <h2>Contacta con Fergo Virtual</h2>
+            <p>¿Tienes alguna pregunta, sugerencia o simplemente quieres saludar? ¡No dudes en contactarme!</p>
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Tu Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Tu Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Tu Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Enviar Mensaje</button>
+            </form>
+            <p class="social-media">
+                Sígueme en mis redes:
+                <a href="https://twitter.com/tuusuario" target="_blank">Twitter</a> |
+                <a href="https://instagram.com/tuusuario" target="_blank">Instagram</a> |
+                <a href="https://twitch.tv/tuusuario" target="_blank">Twitch</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Fergo Virtual. Todos los derechos reservados.</p>
+            <p>Construido con pasión por los videojuegos.</p>
+        </div>
+    </footer>
+</body>
+</html>
